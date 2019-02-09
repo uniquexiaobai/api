@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,8 +42,10 @@
                         <i v-bind:class="['icon-' + (card.logo ? card.logo : card.name[0]), 'card_item_img']"></i>
                         <span class="card_item_name">{{ card.name }}</span>
                     </a>
-                    <a v-bind:href="card.github" target="_black" class="label label-primary">{{ card.github ? 'GiHub' : '' }}</a>
-                    <a v-bind:href="card.cdn" target="_black" class="label label-primary">{{ card.cdn ? 'cdn' : '' }}</a>
+                    <a v-bind:href="card.github" target="_black"
+                        class="label label-primary">{{ card.github ? 'GiHub' : '' }}</a>
+                    <a v-bind:href="card.cdn" target="_black"
+                        class="label label-primary">{{ card.cdn ? 'cdn' : '' }}</a>
                 </div>
             </div>
         </div>
@@ -136,6 +139,12 @@
                         logo: 'gatsby',
                         api: 'https://www.gatsbyjs.org/docs/',
                         github: 'https://github.com/gatsbyjs/gatsby'
+                    },
+                    {
+                        name: 'Ant Design',
+                        logo: 'ant-design',
+                        api: 'https://ant.design/docs/react/introduce-cn',
+                        github: 'https://github.com/ant-design/ant-design'
                     },
                     {
                         name: 'GraphQL',
