@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const htmlmin = require('gulp-htmlmin');
-const replace = require('gulp-replace');
 const spritesmith = require('gulp.spritesmith');
 const browserSync = require('browser-sync').create();
 const minifycss = require('gulp-minify-css');
@@ -46,7 +45,7 @@ gulp.task('sprite', () => {
         imgName: 'sprite.png',
         cssName: 'sprite.css'
     };
-    let spriteData = gulp.src(['src/images/*.png', 'src/images/letters/*.png']).pipe(spritesmith(options));
+    let spriteData = gulp.src(['src/images/*.png']).pipe(spritesmith(options));
 
     spriteData.img.pipe(gulp.dest('src'));
     return spriteData.css.pipe(gulp.dest('src/css'));
@@ -71,8 +70,6 @@ gulp.task('htmlmin', () => {
     };
 	
 	gulp.src('src/index.html')
-		.pipe(replace('lib/bootstrap.css', 'https://lib.baomitu.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css'))
-		.pipe(replace('lib/vue.js', 'https://lib.baomitu.com/vue/2.5.17-beta.0/vue.min.js'))
 		.pipe(htmlmin(options))
 		.pipe(gulp.dest('dist'));
 });

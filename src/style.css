@@ -1,58 +1,56 @@
-body {
-    font-size: 75%;
-    background-color: #F5F5F5;
+
+a {
+    text-decoration: none;
 }
 
-.center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.title {
+    font-weight: normal;
+    text-align: center;
 }
 
-.card_list {
+.list {
+    padding: 0 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
 }
 
-.card_item {
-    width: 8rem;
-    height: 16rem;
-    padding-top: 1rem;
+.item {
+    width: 90px;
+    height: 140px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
 
-.card_item_api:hover {
-    text-decoration: none;
+.item__api {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.card_item_img {
-    border-radius: 1.3rem;
-    border: 1px solid #fff;
+.item__logo {
+    overflow: hidden;
+    border-radius: 20px;
 }
 
-.card_item_name {
+.item__name {
     color: #000;
-    font-size: 1.4rem;
-    margin-top: 0.8rem;
-    margin-bottom: 0.3rem;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 3px;
 }
 
-.label {
-    margin-bottom: 0.2rem;
-    padding-top: 0.3em;
-}
-
-@media (max-width: 767px) {
-    .label {
-    margin-bottom: 0.2rem;
-    font-size: 1rem;
-    padding-top: 0.45em;
-    }
+.item__label {
+    display: flex;
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    background: #337ab7;
 }
 /*
 Icon classes can be used entirely standalone. They are named after their original file names.
@@ -210,24 +208,6 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 72px;
   height: 72px;
 }
-.icon-A {
-  background-image: url(sprite.png);
-  background-position: -432px -432px;
-  width: 72px;
-  height: 72px;
-}
-.icon-C {
-  background-image: url(sprite.png);
-  background-position: -504px 0px;
-  width: 72px;
-  height: 72px;
-}
-.icon-W {
-  background-image: url(sprite.png);
-  background-position: -504px -72px;
-  width: 72px;
-  height: 72px;
-}
 .icon-lodash {
   background-image: url(sprite.png);
   background-position: -216px -288px;
@@ -264,117 +244,123 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 72px;
   height: 72px;
 }
-.icon-parcel {
+.icon-other {
   background-image: url(sprite.png);
   background-position: -360px -288px;
   width: 72px;
   height: 72px;
 }
-.icon-prepack {
+.icon-parcel {
   background-image: url(sprite.png);
   background-position: 0px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-prettier {
+.icon-prepack {
   background-image: url(sprite.png);
   background-position: -72px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-puppeteer {
+.icon-prettier {
   background-image: url(sprite.png);
   background-position: -144px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-python {
+.icon-puppeteer {
   background-image: url(sprite.png);
   background-position: -216px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-ramda {
+.icon-python {
   background-image: url(sprite.png);
   background-position: -288px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-react-router {
+.icon-ramda {
   background-image: url(sprite.png);
   background-position: -360px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-react {
+.icon-react-router {
   background-image: url(sprite.png);
   background-position: -432px 0px;
   width: 72px;
   height: 72px;
 }
-.icon-react_native {
+.icon-react {
   background-image: url(sprite.png);
   background-position: -432px -72px;
   width: 72px;
   height: 72px;
 }
-.icon-reason {
+.icon-react_native {
   background-image: url(sprite.png);
   background-position: -432px -144px;
   width: 72px;
   height: 72px;
 }
-.icon-redux {
+.icon-reason {
   background-image: url(sprite.png);
   background-position: -432px -216px;
   width: 72px;
   height: 72px;
 }
-.icon-rxjs {
+.icon-redux {
   background-image: url(sprite.png);
   background-position: -432px -288px;
   width: 72px;
   height: 72px;
 }
-.icon-storybook {
+.icon-rxjs {
   background-image: url(sprite.png);
   background-position: -432px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-typescript {
+.icon-storybook {
   background-image: url(sprite.png);
   background-position: 0px -432px;
   width: 72px;
   height: 72px;
 }
-.icon-vue {
+.icon-typescript {
   background-image: url(sprite.png);
   background-position: -72px -432px;
   width: 72px;
   height: 72px;
 }
-.icon-webassembly {
+.icon-vue {
   background-image: url(sprite.png);
   background-position: -144px -432px;
   width: 72px;
   height: 72px;
 }
-.icon-webpack {
+.icon-webassembly {
   background-image: url(sprite.png);
   background-position: -216px -432px;
   width: 72px;
   height: 72px;
 }
-.icon-workbox {
+.icon-webpack {
   background-image: url(sprite.png);
   background-position: -288px -432px;
   width: 72px;
   height: 72px;
 }
-.icon-zepto {
+.icon-workbox {
   background-image: url(sprite.png);
   background-position: -360px -432px;
+  width: 72px;
+  height: 72px;
+}
+.icon-zepto {
+  background-image: url(sprite.png);
+  background-position: -432px -432px;
   width: 72px;
   height: 72px;
 }
