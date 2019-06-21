@@ -148,169 +148,169 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 72px;
   height: 72px;
 }
-.icon-flutter {
+.icon-gatsby {
   background-image: url(sprite.png);
   background-position: -72px -216px;
   width: 72px;
   height: 72px;
 }
-.icon-gatsby {
+.icon-graphql {
   background-image: url(sprite.png);
   background-position: -144px -216px;
   width: 72px;
   height: 72px;
 }
-.icon-graphql {
+.icon-gulp {
   background-image: url(sprite.png);
   background-position: -216px -216px;
   width: 72px;
   height: 72px;
 }
-.icon-gulp {
+.icon-haskell {
   background-image: url(sprite.png);
   background-position: -288px 0px;
   width: 72px;
   height: 72px;
 }
-.icon-haskell {
+.icon-html {
   background-image: url(sprite.png);
   background-position: -288px -72px;
   width: 72px;
   height: 72px;
 }
-.icon-html {
+.icon-http {
   background-image: url(sprite.png);
   background-position: -288px -144px;
   width: 72px;
   height: 72px;
 }
-.icon-http {
+.icon-javascript {
   background-image: url(sprite.png);
   background-position: -288px -216px;
   width: 72px;
   height: 72px;
 }
-.icon-javascript {
+.icon-jest {
   background-image: url(sprite.png);
   background-position: 0px -288px;
   width: 72px;
   height: 72px;
 }
-.icon-jest {
+.icon-lodash {
   background-image: url(sprite.png);
   background-position: -72px -288px;
   width: 72px;
   height: 72px;
 }
-.icon-lodash {
+.icon-mobx {
   background-image: url(sprite.png);
   background-position: -144px -288px;
   width: 72px;
   height: 72px;
 }
-.icon-mobx {
+.icon-nextjs {
   background-image: url(sprite.png);
   background-position: -216px -288px;
   width: 72px;
   height: 72px;
 }
-.icon-nextjs {
+.icon-nginx {
   background-image: url(sprite.png);
   background-position: -288px -288px;
   width: 72px;
   height: 72px;
 }
-.icon-nginx {
+.icon-nodejs {
   background-image: url(sprite.png);
   background-position: -360px 0px;
   width: 72px;
   height: 72px;
 }
-.icon-nodejs {
+.icon-other {
   background-image: url(sprite.png);
   background-position: -360px -72px;
   width: 72px;
   height: 72px;
 }
-.icon-other {
+.icon-parcel {
   background-image: url(sprite.png);
   background-position: -360px -144px;
   width: 72px;
   height: 72px;
 }
-.icon-parcel {
+.icon-prepack {
   background-image: url(sprite.png);
   background-position: -360px -216px;
   width: 72px;
   height: 72px;
 }
-.icon-prepack {
+.icon-prettier {
   background-image: url(sprite.png);
   background-position: -360px -288px;
   width: 72px;
   height: 72px;
 }
-.icon-prettier {
+.icon-puppeteer {
   background-image: url(sprite.png);
   background-position: 0px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-puppeteer {
+.icon-python {
   background-image: url(sprite.png);
   background-position: -72px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-python {
+.icon-ramda {
   background-image: url(sprite.png);
   background-position: -144px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-ramda {
+.icon-react-router {
   background-image: url(sprite.png);
   background-position: -216px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-react-router {
+.icon-react {
   background-image: url(sprite.png);
   background-position: -288px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-react {
+.icon-redux {
   background-image: url(sprite.png);
   background-position: -360px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-redux {
+.icon-rxjs {
   background-image: url(sprite.png);
   background-position: -432px 0px;
   width: 72px;
   height: 72px;
 }
-.icon-rxjs {
+.icon-storybook {
   background-image: url(sprite.png);
   background-position: -432px -72px;
   width: 72px;
   height: 72px;
 }
-.icon-storybook {
+.icon-typescript {
   background-image: url(sprite.png);
   background-position: -432px -144px;
   width: 72px;
   height: 72px;
 }
-.icon-typescript {
+.icon-vue {
   background-image: url(sprite.png);
   background-position: -432px -216px;
   width: 72px;
   height: 72px;
 }
-.icon-vue {
+.icon-weapp {
   background-image: url(sprite.png);
   background-position: -432px -288px;
   width: 72px;
