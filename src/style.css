@@ -298,39 +298,45 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 72px;
   height: 72px;
 }
-.icon-typescript {
+.icon-taro {
   background-image: url(sprite.png);
   background-position: -432px -144px;
   width: 72px;
   height: 72px;
 }
-.icon-vue {
+.icon-typescript {
   background-image: url(sprite.png);
   background-position: -432px -216px;
   width: 72px;
   height: 72px;
 }
-.icon-weapp {
+.icon-vue {
   background-image: url(sprite.png);
   background-position: -432px -288px;
   width: 72px;
   height: 72px;
 }
-.icon-webpack {
+.icon-weapp {
   background-image: url(sprite.png);
   background-position: -432px -360px;
   width: 72px;
   height: 72px;
 }
-.icon-workbox {
+.icon-webpack {
   background-image: url(sprite.png);
   background-position: 0px -432px;
   width: 72px;
   height: 72px;
 }
-.icon-zepto {
+.icon-workbox {
   background-image: url(sprite.png);
   background-position: -72px -432px;
+  width: 72px;
+  height: 72px;
+}
+.icon-zepto {
+  background-image: url(sprite.png);
+  background-position: -144px -432px;
   width: 72px;
   height: 72px;
 }
