@@ -290,12 +290,6 @@ const IndexPage = () => (
                         />
                         <span class="item__name">{item.name}</span>
                     </a>
-
-                    {item.github && (
-                        <a href={item.github} class="item__label">
-                            Github
-                        </a>
-                    )}
                 </li>
             ))}
         </ul>
