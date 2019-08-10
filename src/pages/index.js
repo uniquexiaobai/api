@@ -7,38 +7,8 @@ import '../styles/index.css';
 
 const list = [
     {
-        name: 'HTTP',
-        logo: 'http.png',
-        api: 'https://developer.mozilla.org/zh-CN/docs/Web/HTTP',
-    },
-    {
-        name: 'HTML5',
-        logo: 'html.png',
-        api: 'https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element',
-    },
-    {
-        name: 'DOM',
-        logo: 'dom.png',
-        api:
-            'https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model',
-    },
-    {
-        name: 'DOM Events',
-        logo: 'dom_events.png',
-        api: 'https://developer.mozilla.org/zh-CN/docs/Web/Events',
-    },
-    {
         name: 'Canvas',
         api: 'https://www.canvasapi.cn/',
-    },
-    {
-        name: 'Web API',
-        api: 'https://developer.mozilla.org/zh-CN/docs/Web/API',
-    },
-    {
-        name: 'CSS3',
-        logo: 'css.png',
-        api: 'https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference',
     },
     {
         name: 'Vue',
@@ -61,8 +31,12 @@ const list = [
         api: 'http://cn.mobx.js.org/',
     },
     {
-        name: 'R-Router',
-        logo: 'react-router.png',
+        name: 'Dva',
+        api: 'https://dvajs.com/guide/',
+    },
+    {
+        name: 'React Router',
+        logo: 'react-router.svg',
         api: 'https://reacttraining.com/react-router/core/guides/quick-start',
     },
     {
@@ -71,28 +45,19 @@ const list = [
         api: 'https://nextjs.org/docs',
     },
     {
-        name: 'Umi',
-        api: 'https://umijs.org/zh/guide/',
-    },
-    {
         name: 'Gatsby',
         logo: 'gatsby.svg',
         api: 'https://www.gatsbyjs.org/docs/',
     },
     {
-        name: 'Ant Design',
-        logo: 'antd.png',
-        api: 'https://ant.design/docs/react/introduce-cn',
-    },
-    {
-        name: 'GraphQL',
-        logo: 'graphql.svg',
-        api: 'https://graphql.cn/learn/',
-    },
-    {
         name: 'Docusaurus',
         logo: 'docusaurus.svg',
         api: 'https://docusaurus.io/docs/zh-CN/installation',
+    },
+    {
+        name: 'Ant Design',
+        logo: 'antd.png',
+        api: 'https://ant.design/docs/react/introduce-cn',
     },
     {
         name: 'JavaScript',
@@ -147,6 +112,10 @@ const list = [
         api: 'https://date-fns.org/docs/Getting-Started',
     },
     {
+        name: 'Axios',
+        api: 'https://github.com/axios/axios',
+    },
+    {
         name: 'Node.js',
         logo: 'nodejs.png',
         api: 'http://nodejs.cn/api/',
@@ -172,12 +141,13 @@ const list = [
         api: 'https://zhaoqize.github.io/puppeteer-api-zh_CN/#/',
     },
     {
-        name: 'Axios',
-        api: 'https://github.com/axios/axios',
-    },
-    {
         name: 'Cheerio',
         api: 'https://github.com/cheeriojs/cheerio',
+    },
+    {
+        name: 'GraphQL',
+        logo: 'graphql.svg',
+        api: 'https://graphql.cn/learn/',
     },
     {
         name: 'Haskell',
@@ -195,24 +165,18 @@ const list = [
         api: 'http://nginx.org/en/docs/',
     },
     {
-        name: 'Jest',
-        logo: 'jest.svg',
-        api: 'https://jestjs.io/docs/en/getting-started',
+        name: 'Umi',
+        api: 'https://umijs.org/zh/guide/',
     },
     {
-        name: 'Storybook',
-        logo: 'storybook.png',
-        api: 'https://storybook.js.org/basics/introduction/',
+        name: 'Jest',
+        logo: 'jest.svg',
+        api: 'https://jestjs.io/docs/zh-Hans/getting-started',
     },
     {
         name: 'Prepack',
         logo: 'prepack.png',
         api: 'https://prepack.io/getting-started.html',
-    },
-    {
-        name: 'Create R App',
-        logo: 'create-react-app.png',
-        api: 'https://facebook.github.io/create-react-app/docs/getting-started',
     },
     {
         name: 'Eslint',
@@ -238,11 +202,6 @@ const list = [
         name: 'Parcel',
         logo: 'parcel.png',
         api: 'https://parceljs.org/getting_started.html',
-    },
-    {
-        name: 'Taro',
-        logo: 'taro.png',
-        api: 'https://taro-docs.jd.com/taro/docs/README.html',
     },
     {
         name: '小程序',
