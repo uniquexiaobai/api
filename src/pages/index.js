@@ -8,23 +8,23 @@ import '../styles/index.css';
 const list = [
     {
         name: 'HTTP',
-        logo: 'http',
+        logo: 'http.png',
         api: 'https://developer.mozilla.org/zh-CN/docs/Web/HTTP',
     },
     {
         name: 'HTML5',
-        logo: 'html',
+        logo: 'html.png',
         api: 'https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element',
     },
     {
         name: 'DOM',
-        logo: 'dom',
+        logo: 'dom.png',
         api:
             'https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model',
     },
     {
         name: 'DOM Events',
-        logo: 'dom_events',
+        logo: 'dom_events.png',
         api: 'https://developer.mozilla.org/zh-CN/docs/Web/Events',
     },
     {
@@ -37,153 +37,139 @@ const list = [
     },
     {
         name: 'CSS3',
-        logo: 'css',
+        logo: 'css.png',
         api: 'https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference',
     },
     {
         name: 'Vue',
-        logo: 'vue',
+        logo: 'vue.svg',
         api: 'https://cn.vuejs.org/v2/guide/',
-        github: 'https://github.com/vuejs/vue',
     },
     {
         name: 'React',
-        logo: 'react',
+        logo: 'react.svg',
         api: 'https://zh-hans.reactjs.org/docs/getting-started.html',
-        github: 'https://github.com/facebook/react/',
     },
     {
         name: 'Redux',
-        logo: 'redux',
+        logo: 'redux.svg',
         api: 'https://redux.js.org/advanced/asyncactions',
-        github: 'https://github.com/reduxjs/redux',
     },
     {
         name: 'Mobx',
-        logo: 'mobx',
+        logo: 'mobx.png',
         api: 'http://cn.mobx.js.org/',
-        github: 'https://github.com/mobxjs/mobx',
     },
     {
         name: 'R-Router',
-        logo: 'react-router',
+        logo: 'react-router.png',
         api: 'https://reacttraining.com/react-router/core/guides/quick-start',
-        github: 'https://github.com/ReactTraining/react-router',
     },
     {
         name: 'Next.js',
-        logo: 'nextjs',
+        logo: 'nextjs.svg',
         api: 'https://nextjs.org/docs',
-        github: 'https://github.com/zeit/next.js',
     },
     {
         name: 'Umi',
         api: 'https://umijs.org/zh/guide/',
-        github: 'https://github.com/umijs/umi',
     },
     {
         name: 'Gatsby',
-        logo: 'gatsby',
+        logo: 'gatsby.svg',
         api: 'https://www.gatsbyjs.org/docs/',
-        github: 'https://github.com/gatsbyjs/gatsby',
     },
     {
         name: 'Ant Design',
-        logo: 'ant-design',
+        logo: 'antd.png',
         api: 'https://ant.design/docs/react/introduce-cn',
-        github: 'https://github.com/ant-design/ant-design',
     },
     {
         name: 'GraphQL',
-        logo: 'graphql',
+        logo: 'graphql.svg',
         api: 'https://graphql.cn/learn/',
     },
     {
         name: 'Docusaurus',
-        logo: 'docusaurus',
+        logo: 'docusaurus.svg',
         api: 'https://docusaurus.io/docs/zh-CN/installation',
     },
     {
         name: 'JavaScript',
-        logo: 'javascript',
+        logo: 'javascript.png',
         api:
             'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference',
     },
     {
         name: 'ECMA 2019',
-        logo: 'ecmascript',
+        logo: 'ecmascript.png',
         api: 'https://tc39.es/ecma262/',
     },
     {
         name: 'TypeScript',
-        logo: 'typescript',
+        logo: 'typescript.svg',
         api: 'https://www.tslang.cn/docs/home.html',
-        github: 'https://github.com/Microsoft/TypeScript',
     },
     {
         name: 'RxJS',
-        logo: 'rxjs',
+        logo: 'rxjs.png',
         api: 'https://rxjs-dev.firebaseapp.com/guide/overview',
-        github: 'https://github.com/ReactiveX/RxJS',
     },
     {
         name: 'Ramda',
-        logo: 'ramda',
+        logo: 'ramda.png',
         api: 'http://ramda.cn/docs/',
-        github: 'https://github.com/ramda/ramda',
     },
     {
         name: 'Lodash',
-        logo: 'lodash',
+        logo: 'lodash.png',
         api: 'https://lodash.com/docs/4.16.4',
-        github: 'https://github.com/lodash/lodash',
     },
     {
         name: 'Zepto',
-        logo: 'zepto',
+        logo: 'zepto.png',
         api: 'http://www.css88.com/doc/zeptojs_api/',
-        github: 'https://github.com/madrobby/zepto',
     },
     {
         name: 'AntV',
-        logo: 'ant-v',
+        logo: 'ant-v.png',
         api: 'https://antv.alipay.com/zh-cn/index.html',
     },
     {
         name: 'Workbox',
-        logo: 'workbox',
+        logo: 'workbox.png',
         api:
             'https://developers.google.com/web/tools/workbox/guides/get-started',
-        github: 'https://github.com/GoogleChrome/workbox',
     },
     {
         name: 'date-fns',
-        logo: 'date-fns',
+        logo: 'date-fns.png',
         api: 'https://date-fns.org/docs/Getting-Started',
-        github: 'https://github.com/date-fns/date-fns',
     },
     {
         name: 'Node.js',
-        logo: 'nodejs',
+        logo: 'nodejs.png',
         api: 'http://nodejs.cn/api/',
     },
     {
         name: 'Express',
-        logo: 'express',
+        logo: 'express.png',
         api: 'http://www.expressjs.com.cn/4x/api.html',
-        github: 'https://github.com/expressjs/express',
     },
     {
         name: 'Egg.js',
-        logo: 'egg',
+        logo: 'egg.png',
         api: 'https://eggjs.org/zh-cn/intro/',
-        github: 'https://github.com/eggjs/egg',
+    },
+    {
+        name: 'Electron',
+        logo: 'electron.png',
+        api: 'https://electronjs.org/docs',
     },
     {
         name: 'Puppeteer',
-        logo: 'puppeteer',
+        logo: 'puppeteer.png',
         api: 'https://zhaoqize.github.io/puppeteer-api-zh_CN/#/',
-        github: 'https://github.com/GoogleChrome/puppeteer',
     },
     {
         name: 'Axios',
@@ -195,85 +181,85 @@ const list = [
     },
     {
         name: 'Haskell',
-        logo: 'haskell',
+        logo: 'haskell.png',
         api: 'https://downloads.haskell.org/~ghc/latest/docs/html/libraries/',
     },
     {
         name: 'Python',
-        logo: 'python',
+        logo: 'python.png',
         api: 'https://www.rddoc.com/doc/Python/3.6.0/zh/',
     },
     {
         name: 'Nginx',
-        logo: 'nginx',
+        logo: 'nginx.png',
         api: 'http://nginx.org/en/docs/',
     },
     {
         name: 'Jest',
-        logo: 'jest',
+        logo: 'jest.svg',
         api: 'https://jestjs.io/docs/en/getting-started',
     },
     {
         name: 'Storybook',
-        logo: 'storybook',
+        logo: 'storybook.png',
         api: 'https://storybook.js.org/basics/introduction/',
     },
     {
         name: 'Prepack',
-        logo: 'prepack',
+        logo: 'prepack.png',
         api: 'https://prepack.io/getting-started.html',
     },
     {
         name: 'Create R App',
-        logo: 'create-react-app',
+        logo: 'create-react-app.png',
         api: 'https://facebook.github.io/create-react-app/docs/getting-started',
     },
     {
         name: 'Eslint',
-        logo: 'eslint',
+        logo: 'eslint.png',
         api: 'https://cn.eslint.org/docs/rules/',
-        github: 'https://github.com/eslint/eslint',
     },
     {
         name: 'Prettier',
-        logo: 'prettier',
+        logo: 'prettier.svg',
         api: 'https://prettier.io/docs/en/options.html',
-        github: 'https://github.com/prettier/prettier',
     },
     {
         name: 'Babel',
-        logo: 'babel',
+        logo: 'babel.png',
         api: 'https://www.babeljs.cn/docs/',
     },
     {
-        name: 'Gulp',
-        logo: 'gulp',
-        api: 'http://www.gulpjs.com.cn/docs/api/',
-        github: 'https://github.com/gulpjs/gulp',
-    },
-    {
         name: 'Webpack',
-        logo: 'webpack',
+        logo: 'webpack.svg',
         api: 'https://www.webpackjs.com/configuration/',
-        github: 'https://github.com/webpack/webpack',
     },
     {
         name: 'Parcel',
-        logo: 'parcel',
+        logo: 'parcel.png',
         api: 'https://parceljs.org/getting_started.html',
-        github: 'https://github.com/parcel-bundler/parcel',
     },
     {
         name: 'Taro',
-        logo: 'taro',
+        logo: 'taro.png',
         api: 'https://taro-docs.jd.com/taro/docs/README.html',
     },
     {
         name: '小程序',
-        logo: 'weapp',
+        logo: 'weapp.png',
         api: 'https://developers.weixin.qq.com/miniprogram/dev/framework/',
     },
 ];
+
+const getLogoUrl = (logo = 'default.png') => {
+    let url = 'https://unique-api.oss-ap-southeast-1.aliyuncs.com/logo/' + logo;
+
+    if (!/svg$/.test(logo)) {
+        url += '?x-oss-process=style/webp';
+    }
+
+    return url;
+};
 
 const IndexPage = () => (
     <Layout>
@@ -283,11 +269,7 @@ const IndexPage = () => (
             {list.map(item => (
                 <li key={item.name} class="item">
                     <a href={item.api} class="item__api">
-                        <img
-                            src={require(`../images/${item.logo ||
-                                'default'}.png`)}
-                            class="item__logo"
-                        />
+                        <img src={getLogoUrl(item.logo)} class="item__logo" />
                         <span class="item__name">{item.name}</span>
                     </a>
                 </li>

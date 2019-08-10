@@ -9,7 +9,7 @@ ul, li {
 .list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     background: #212424;
     font-family: 'IBM Plex Mono', 'Space Grotesk', 'Roboto Slab', sans-serif;
 }
