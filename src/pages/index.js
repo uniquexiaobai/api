@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -27,7 +26,7 @@ const list = [
     },
     {
         name: 'Mobx',
-        logo: 'mobx.png',
+        logo: 'mobx.svg',
         api: 'http://cn.mobx.js.org/',
     },
     {
@@ -52,22 +51,23 @@ const list = [
     {
         name: 'Docusaurus',
         logo: 'docusaurus.svg',
-        api: 'https://docusaurus.io/docs/zh-CN/installation',
+        api:
+            'https://deploy-preview-1655--docusaurus-2.netlify.com/docs/introduction',
     },
     {
         name: 'Ant Design',
-        logo: 'antd.png',
+        logo: 'antd.svg',
         api: 'https://ant.design/docs/react/introduce-cn',
     },
     {
         name: 'JavaScript',
-        logo: 'javascript.png',
+        logo: 'javascript.svg',
         api:
             'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference',
     },
     {
         name: 'ECMA 2019',
-        logo: 'ecmascript.png',
+        logo: 'javascript.svg',
         api: 'https://tc39.es/ecma262/',
     },
     {
@@ -77,17 +77,17 @@ const list = [
     },
     {
         name: 'RxJS',
-        logo: 'rxjs.png',
+        logo: 'rxjs.svg',
         api: 'https://rxjs-dev.firebaseapp.com/guide/overview',
     },
     {
         name: 'Ramda',
-        logo: 'ramda.png',
+        logo: 'ramda.svg',
         api: 'http://ramda.cn/docs/',
     },
     {
         name: 'Lodash',
-        logo: 'lodash.png',
+        logo: 'lodash.svg',
         api: 'https://lodash.com/docs/4.16.4',
     },
     {
@@ -97,52 +97,52 @@ const list = [
     },
     {
         name: 'AntV',
-        logo: 'ant-v.png',
+        logo: 'antv.svg',
         api: 'https://antv.alipay.com/zh-cn/index.html',
     },
     {
         name: 'Workbox',
-        logo: 'workbox.png',
+        logo: 'workbox.svg',
         api:
             'https://developers.google.com/web/tools/workbox/guides/get-started',
     },
     {
         name: 'date-fns',
-        logo: 'date-fns.png',
+        logo: 'date-fns.svg',
         api: 'https://date-fns.org/docs/Getting-Started',
     },
     {
         name: 'Axios',
-        api: 'https://github.com/axios/axios',
+        api: 'http://www.axios-js.com/zh-cn/docs/',
     },
     {
         name: 'Node.js',
-        logo: 'nodejs.png',
+        logo: 'nodejs.svg',
         api: 'http://nodejs.cn/api/',
     },
     {
         name: 'Express',
-        logo: 'express.png',
+        logo: 'express.svg',
         api: 'http://www.expressjs.com.cn/4x/api.html',
     },
     {
         name: 'Egg.js',
-        logo: 'egg.png',
+        logo: 'eggjs.png',
         api: 'https://eggjs.org/zh-cn/intro/',
     },
     {
         name: 'Electron',
-        logo: 'electron.png',
+        logo: 'electron.svg',
         api: 'https://electronjs.org/docs',
     },
     {
         name: 'Puppeteer',
-        logo: 'puppeteer.png',
+        logo: 'puppeteer.svg',
         api: 'https://zhaoqize.github.io/puppeteer-api-zh_CN/#/',
     },
     {
         name: 'Cheerio',
-        api: 'https://github.com/cheeriojs/cheerio',
+        api: 'https://cheerio.js.org/',
     },
     {
         name: 'GraphQL',
@@ -151,17 +151,17 @@ const list = [
     },
     {
         name: 'Haskell',
-        logo: 'haskell.png',
+        logo: 'haskell.svg',
         api: 'https://downloads.haskell.org/~ghc/latest/docs/html/libraries/',
     },
     {
         name: 'Python',
-        logo: 'python.png',
+        logo: 'python.svg',
         api: 'https://www.rddoc.com/doc/Python/3.6.0/zh/',
     },
     {
         name: 'Nginx',
-        logo: 'nginx.png',
+        logo: 'nginx.svg',
         api: 'http://nginx.org/en/docs/',
     },
     {
@@ -180,7 +180,7 @@ const list = [
     },
     {
         name: 'Eslint',
-        logo: 'eslint.png',
+        logo: 'eslint.svg',
         api: 'https://cn.eslint.org/docs/rules/',
     },
     {
@@ -190,7 +190,7 @@ const list = [
     },
     {
         name: 'Babel',
-        logo: 'babel.png',
+        logo: 'babel.svg',
         api: 'https://www.babeljs.cn/docs/',
     },
     {
@@ -200,21 +200,21 @@ const list = [
     },
     {
         name: 'Parcel',
-        logo: 'parcel.png',
+        logo: 'parcel.svg',
         api: 'https://parceljs.org/getting_started.html',
     },
     {
         name: '小程序',
-        logo: 'weapp.png',
+        logo: 'minapp.svg',
         api: 'https://developers.weixin.qq.com/miniprogram/dev/framework/',
     },
 ];
 
-const getLogoUrl = (logo = 'default.png') => {
-    let url = 'https://unique-api.oss-ap-southeast-1.aliyuncs.com/logo/' + logo;
+const getLogoUrl = (logo = 'default.svg') => {
+    let url = 'https://uniquexiaobai.cn/api/' + logo;
 
     if (!/svg$/.test(logo)) {
-        url += '?x-oss-process=style/webp';
+        url += '!w200';
     }
 
     return url;
@@ -224,12 +224,16 @@ const IndexPage = () => (
     <Layout>
         <SEO title="Home" />
 
-        <ul class="list">
+        <ul className="list">
             {list.map(item => (
-                <li key={item.name} class="item">
-                    <a href={item.api} class="item__api">
-                        <img src={getLogoUrl(item.logo)} class="item__logo" />
-                        <span class="item__name">{item.name}</span>
+                <li key={item.name} className="item">
+                    <a href={item.api} className="item__api">
+                        <img
+                            src={getLogoUrl(item.logo)}
+                            className="item__logo"
+                            alt={item.name}
+                        />
+                        <span className="item__name">{item.name}</span>
                     </a>
                 </li>
             ))}
