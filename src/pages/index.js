@@ -6,6 +6,16 @@ import '../styles/index.css';
 
 const list = [
     {
+        name: 'Browser',
+        logo: 'chrome.svg',
+        api: 'https://platform.html5.org/',
+    },
+    {
+        name: 'HTML',
+        logo: 'html.svg',
+        api: 'https://whatwg-cn.github.io/html/',
+    },
+    {
         name: 'Canvas',
         api: 'https://www.canvasapi.cn/',
     },
@@ -102,7 +112,7 @@ const list = [
     },
     {
         name: 'Workbox',
-        logo: 'workbox.svg',
+        logo: 'chrome.svg',
         api:
             'https://developers.google.com/web/tools/workbox/guides/get-started',
     },
