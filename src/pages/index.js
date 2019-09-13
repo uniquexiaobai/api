@@ -61,8 +61,7 @@ const list = [
     {
         name: 'Docusaurus',
         logo: 'docusaurus.svg',
-        api:
-            'https://deploy-preview-1655--docusaurus-2.netlify.com/docs/introduction',
+        api: 'https://v2.docusaurus.io/docs/introduction/',
     },
     {
         name: 'Ant Design',
@@ -168,6 +167,16 @@ const list = [
         name: 'Python',
         logo: 'python.svg',
         api: 'https://www.rddoc.com/doc/Python/3.6.0/zh/',
+    },
+    {
+        name: 'Requests',
+        logo: 'python.svg',
+        url: 'http://cn.python-requests.org/zh_CN/latest/',
+    },
+    {
+        name: 'Beautiful Soup',
+        logo: 'python.svg',
+        url: 'https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/',
     },
     {
         name: 'Nginx',
