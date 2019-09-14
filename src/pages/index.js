@@ -90,6 +90,11 @@ const list = [
         api: 'https://rxjs-dev.firebaseapp.com/guide/overview',
     },
     {
+        name: 'Immer',
+        logo: 'immer.png',
+        api: 'https://immerjs.github.io/immer/docs/introduction',
+    },
+    {
         name: 'Ramda',
         logo: 'ramda.svg',
         api: 'http://ramda.cn/docs/',
