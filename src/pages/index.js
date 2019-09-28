@@ -75,7 +75,7 @@ const list = [
             'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference',
     },
     {
-        name: 'ECMA 2019',
+        name: 'ECMA 2020',
         logo: 'javascript.svg',
         api: 'https://tc39.es/ecma262/',
     },
