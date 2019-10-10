@@ -30,9 +30,19 @@ const list = [
         api: 'https://zh-hans.reactjs.org/docs/getting-started.html',
     },
     {
+        name: 'React Router',
+        logo: 'react-router.svg',
+        api: 'https://reacttraining.com/react-router/core/guides/quick-start',
+    },
+    {
         name: 'Redux',
         logo: 'redux.svg',
-        api: 'https://redux.js.org/advanced/asyncactions',
+        api: 'https://redux.js.org/introduction/getting-started',
+    },
+    {
+        name: 'React Redux',
+        logo: 'redux.svg',
+        api: 'https://react-redux.js.org/introduction/quick-start',
     },
     {
         name: 'Mobx',
@@ -42,11 +52,6 @@ const list = [
     {
         name: 'Dva',
         api: 'https://dvajs.com/guide/',
-    },
-    {
-        name: 'React Router',
-        logo: 'react-router.svg',
-        api: 'https://reacttraining.com/react-router/core/guides/quick-start',
     },
     {
         name: 'Next.js',
@@ -221,6 +226,11 @@ const list = [
         name: 'Webpack',
         logo: 'webpack.svg',
         api: 'https://www.webpackjs.com/configuration/',
+    },
+    {
+        name: 'Rollup',
+        logo: 'rollup.svg',
+        api: 'https://www.rollupjs.com/guide/introduction/',
     },
     {
         name: 'Parcel',
