@@ -169,6 +169,11 @@ const list = [
         api: 'https://graphql.cn/learn/',
     },
     {
+        name: 'Apollo',
+        logo: 'apollo.svg',
+        api: 'https://www.apollographql.com/docs/',
+    },
+    {
         name: 'Haskell',
         logo: 'haskell.svg',
         api: 'https://downloads.haskell.org/~ghc/latest/docs/html/libraries/',
