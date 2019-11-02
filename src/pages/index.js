@@ -45,6 +45,11 @@ const list = [
         api: 'https://react-redux.js.org/introduction/quick-start',
     },
     {
+        name: 'Redux Starter Kit',
+        logo: 'redux.svg',
+        api: 'https://redux-starter-kit.js.org/introduction/quick-start',
+    },
+    {
         name: 'Mobx',
         logo: 'mobx.svg',
         api: 'http://cn.mobx.js.org/',
