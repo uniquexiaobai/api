@@ -52,7 +52,7 @@ const list = [
     {
         name: 'Mobx',
         logo: 'mobx.svg',
-        api: 'http://cn.mobx.js.org/',
+        api: 'https://mobx.js.org/README.html',
     },
     {
         name: 'Dva',
@@ -76,7 +76,7 @@ const list = [
     {
         name: 'Ant Design',
         logo: 'antd.svg',
-        api: 'https://ant.design/docs/react/introduce-cn',
+        api: 'https://next.ant.design/docs/react/introduce-cn',
     },
     {
         name: 'JavaScript',
