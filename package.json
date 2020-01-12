@@ -24,6 +24,9 @@
   "keywords": [
     "gatsby"
   ],
+  "engines": {
+    "node": "12.x"
+  },
   "license": "MIT",
   "scripts": {
     "now-build": "npm run build",
