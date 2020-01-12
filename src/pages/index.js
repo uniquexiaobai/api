@@ -204,12 +204,12 @@ const list = [
   {
     name: 'Requests',
     logo: 'python.svg',
-    url: 'http://cn.python-requests.org/zh_CN/latest/',
+    api: 'http://cn.python-requests.org/zh_CN/latest/',
   },
   {
     name: 'Beautiful Soup',
     logo: 'python.svg',
-    url: 'https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/',
+    api: 'https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/',
   },
   {
     name: 'Nginx',
