@@ -226,9 +226,14 @@ const list = [
     api: 'https://jestjs.io/docs/zh-Hans/getting-started',
   },
   {
-    name: 'Prepack',
-    logo: 'prepack.png',
-    api: 'https://prepack.io/getting-started.html',
+    name: 'Testing Library',
+    logo: 'testing-library.png',
+    api: 'https://testing-library.com/docs/intro',
+  },
+  {
+    name: 'Storybook',
+    logo: 'storybook.svg',
+    api: 'https://storybook.js.org/docs/basics/introduction/',
   },
   {
     name: 'Eslint',
@@ -272,7 +277,7 @@ const list = [
 ];
 
 const getLogoUrl = (logo = 'default.svg') => {
-  let url = 'https://uniquexiaobai.cn/api/' + logo;
+  let url = 'https://uniquexiaobai.oss-cn-hangzhou.aliyuncs.com/api/' + logo;
 
   if (!/svg$/.test(logo)) {
     url += '!w200';
