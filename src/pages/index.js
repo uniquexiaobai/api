@@ -202,6 +202,11 @@ const list = [
     api: 'https://www.rddoc.com/doc/Python/3.6.0/zh/',
   },
   {
+    name: 'Click',
+    logo: 'python.svg',
+    api: 'https://click.palletsprojects.com/',
+  },
+  {
     name: 'Requests',
     logo: 'python.svg',
     api: 'http://cn.python-requests.org/zh_CN/latest/',
