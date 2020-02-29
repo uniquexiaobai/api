@@ -65,10 +65,6 @@ const list = [
     api: 'https://mobx.js.org/README.html',
   },
   {
-    name: 'Dva',
-    api: 'https://dvajs.com/guide/',
-  },
-  {
     name: 'Next.js',
     logo: 'nextjs.svg',
     api: 'https://nextjs.org/docs',
@@ -86,7 +82,7 @@ const list = [
   {
     name: 'Ant Design',
     logo: 'antd.svg',
-    api: 'https://next.ant.design/docs/react/introduce-cn',
+    api: 'https://ant.design/docs/react/introduce-cn',
   },
   {
     name: 'JavaScript',
@@ -139,9 +135,9 @@ const list = [
     api: 'https://developers.google.com/web/tools/workbox/guides/get-started',
   },
   {
-    name: 'date-fns',
-    logo: 'date-fns.svg',
-    api: 'https://date-fns.org/docs/Getting-Started',
+    name: 'Day.js',
+    logo: 'dayjs.png',
+    api: 'https://day.js.org/docs/en/installation/node-js',
   },
   {
     name: 'Axios',
