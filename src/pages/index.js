@@ -218,10 +218,6 @@ const list = [
     api: 'http://nginx.org/en/docs/',
   },
   {
-    name: 'Umi',
-    api: 'https://umijs.org/zh/guide/',
-  },
-  {
     name: 'Jest',
     logo: 'jest.svg',
     api: 'https://jestjs.io/docs/zh-Hans/getting-started',
@@ -259,7 +255,7 @@ const list = [
   {
     name: 'Rollup',
     logo: 'rollup.svg',
-    api: 'https://www.rollupjs.com/guide/introduction/',
+    api: 'https://rollupjs.org/guide/zh/',
   },
   {
     name: 'Parcel',
