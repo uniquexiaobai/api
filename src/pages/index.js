@@ -70,6 +70,11 @@ const list = [
     api: 'https://nextjs.org/docs',
   },
   {
+    name: 'Nuxt.js',
+    logo: 'nuxtjs.svg',
+    api: 'https://zh.nuxtjs.org/guide',
+  },
+  {
     name: 'Gatsby',
     logo: 'gatsby.svg',
     api: 'https://www.gatsbyjs.org/docs/',
@@ -78,6 +83,11 @@ const list = [
     name: 'Docusaurus',
     logo: 'docusaurus.svg',
     api: 'https://v2.docusaurus.io/docs/introduction/',
+  },
+  {
+    name: 'VuePress',
+    logo: 'vuepress.png',
+    api: 'https://vuepress.vuejs.org/zh/guide/',
   },
   {
     name: 'Ant Design',
