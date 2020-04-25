@@ -97,7 +97,7 @@ const list = [
   {
     name: 'JavaScript',
     logo: 'javascript.svg',
-    api: 'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference',
+    api: 'https://zh.javascript.info/',
   },
   {
     name: 'ECMA 2020',
