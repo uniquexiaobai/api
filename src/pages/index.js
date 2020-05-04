@@ -77,7 +77,7 @@ const list = [
   {
     name: 'Gatsby',
     logo: 'gatsby.svg',
-    api: 'https://www.gatsbyjs.org/docs/',
+    api: 'https://www.gatsbyjs.cn/docs/',
   },
   {
     name: 'Docusaurus',
