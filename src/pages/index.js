@@ -112,7 +112,7 @@ const list = [
   {
     name: 'RxJS',
     logo: 'rxjs.svg',
-    api: 'https://rxjs-dev.firebaseapp.com/guide/overview',
+    api: 'https://rxjs.dev/guide/overview',
   },
   {
     name: 'Immer',
