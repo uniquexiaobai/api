@@ -195,7 +195,7 @@ const list = [
   {
     name: 'Webassembly',
     logo: 'webassembly.svg',
-    api: 'http://webassembly.org.cn/',
+    api: 'https://www.rust-lang.org/zh-CN/what/wasm',
   },
   {
     name: 'Haskell',
@@ -260,7 +260,7 @@ const list = [
   {
     name: 'Webpack',
     logo: 'webpack.svg',
-    api: 'https://www.webpackjs.com/configuration/',
+    api: 'https://webpack.docschina.org/concepts/',
   },
   {
     name: 'Rollup',
