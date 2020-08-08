@@ -30,6 +30,11 @@ const list = [
     api: 'https://cn.vuejs.org/v2/guide/',
   },
   {
+    name: 'Vue3',
+    logo: 'vue.svg',
+    api: 'https://v3.vuejs.org/guide/introduction.html',
+  },
+  {
     name: 'Preact',
     logo: 'preact.svg',
     api: 'https://preactjs.com/guide/v10/getting-started',
@@ -88,6 +93,10 @@ const list = [
     name: 'VuePress',
     logo: 'vuepress.png',
     api: 'https://vuepress.vuejs.org/zh/guide/',
+  },
+  {
+    name: 'Zeit UI',
+    api: 'https://react.zeit-ui.co/zh-cn/guide/introduction',
   },
   {
     name: 'Ant Design',
