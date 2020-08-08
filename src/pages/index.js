@@ -116,7 +116,7 @@ const list = [
   {
     name: 'TypeScript',
     logo: 'typescript.svg',
-    api: 'https://www.tslang.cn/docs/home.html',
+    api: 'https://www.typescriptlang.org/zh/',
   },
   {
     name: 'RxJS',
