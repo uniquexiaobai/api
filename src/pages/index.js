@@ -32,7 +32,7 @@ const list = [
   {
     name: 'Vue3',
     logo: 'vue.svg',
-    api: 'https://v3.vuejs.org/guide/introduction.html',
+    api: 'https://v3.cn.vuejs.org/guide/introduction.html',
   },
   {
     name: 'Preact',
