@@ -20,26 +20,6 @@ const list = [
     api: 'https://www.canvasapi.cn/',
   },
   {
-    name: 'Svelte',
-    logo: 'svelte.svg',
-    api: 'https://svelte.dev/docs',
-  },
-  {
-    name: 'Vue',
-    logo: 'vue.svg',
-    api: 'https://cn.vuejs.org/v2/guide/',
-  },
-  {
-    name: 'Vue3',
-    logo: 'vue.svg',
-    api: 'https://v3.cn.vuejs.org/guide/introduction.html',
-  },
-  {
-    name: 'Preact',
-    logo: 'preact.svg',
-    api: 'https://preactjs.com/guide/v10/getting-started',
-  },
-  {
     name: 'React',
     logo: 'react.svg',
     api: 'https://zh-hans.reactjs.org/docs/getting-started.html',
@@ -70,24 +50,13 @@ const list = [
     api: 'https://mobx.js.org/README.html',
   },
   {
+    name: 'Dva',
+    api: 'https://dvajs.com/guide/',
+  },
+  {
     name: 'Next.js',
     logo: 'nextjs.svg',
     api: 'https://nextjs.org/docs',
-  },
-  {
-    name: 'Nuxt.js',
-    logo: 'nuxtjs.svg',
-    api: 'https://zh.nuxtjs.org/guide',
-  },
-  {
-    name: 'Gatsby',
-    logo: 'gatsby.svg',
-    api: 'https://www.gatsbyjs.cn/docs/',
-  },
-  {
-    name: 'Docusaurus',
-    logo: 'docusaurus.svg',
-    api: 'https://v2.docusaurus.io/docs/introduction/',
   },
   {
     name: 'VuePress',
@@ -104,6 +73,11 @@ const list = [
     api: 'https://ant.design/docs/react/introduce-cn',
   },
   {
+    name: 'Ant Design Pro',
+    logo: 'antd.svg',
+    api: 'https://pro.ant.design/docs/getting-started-cn',
+  },
+  {
     name: 'JavaScript',
     logo: 'javascript.svg',
     api: 'https://zh.javascript.info/',
@@ -116,12 +90,7 @@ const list = [
   {
     name: 'TypeScript',
     logo: 'typescript.svg',
-    api: 'https://www.typescriptlang.org/zh/',
-  },
-  {
-    name: 'RxJS',
-    logo: 'rxjs.svg',
-    api: 'https://rxjs.dev/guide/overview',
+    api: 'https://www.tslang.cn/docs/home.html',
   },
   {
     name: 'Immer',
@@ -159,8 +128,8 @@ const list = [
     api: 'https://day.js.org/docs/en/installation/node-js',
   },
   {
-    name: 'Axios',
-    api: 'http://www.axios-js.com/zh-cn/docs/',
+    name: 'Got',
+    api: 'https://github.com/sindresorhus/got',
   },
   {
     name: 'Node.js',
@@ -178,28 +147,8 @@ const list = [
     api: 'https://eggjs.org/zh-cn/intro/',
   },
   {
-    name: 'Electron',
-    logo: 'electron.svg',
-    api: 'https://electronjs.org/docs',
-  },
-  {
-    name: 'Puppeteer',
-    logo: 'puppeteer.svg',
-    api: 'https://zhaoqize.github.io/puppeteer-api-zh_CN/#/',
-  },
-  {
     name: 'Cheerio',
     api: 'https://cheerio.js.org/',
-  },
-  {
-    name: 'GraphQL',
-    logo: 'graphql.svg',
-    api: 'https://graphql.cn/learn/',
-  },
-  {
-    name: 'Apollo',
-    logo: 'apollo.svg',
-    api: 'https://www.apollographql.com/docs/',
   },
   {
     name: 'Webassembly',
@@ -207,14 +156,14 @@ const list = [
     api: 'https://www.rust-lang.org/zh-CN/what/wasm',
   },
   {
-    name: 'Haskell',
-    logo: 'haskell.svg',
-    api: 'https://downloads.haskell.org/~ghc/latest/docs/html/libraries/',
-  },
-  {
     name: 'Python',
     logo: 'python.svg',
     api: 'https://www.rddoc.com/doc/Python/3.6.0/zh/',
+  },
+  {
+    name: 'Flask',
+    logo: 'flask.svg',
+    api: 'https://dormousehole.readthedocs.io/en/latest/',
   },
   {
     name: 'Click',
@@ -247,11 +196,6 @@ const list = [
     api: 'https://testing-library.com/docs/intro',
   },
   {
-    name: 'Storybook',
-    logo: 'storybook.svg',
-    api: 'https://storybook.js.org/docs/basics/introduction/',
-  },
-  {
     name: 'Eslint',
     logo: 'eslint.svg',
     api: 'https://cn.eslint.org/docs/rules/',
@@ -282,13 +226,9 @@ const list = [
     api: 'https://parceljs.org/getting_started.html',
   },
   {
-    name: 'Remax',
-    api: 'https://remaxjs.org/',
-  },
-  {
-    name: '小程序',
-    logo: 'minapp.svg',
-    api: 'https://developers.weixin.qq.com/miniprogram/dev/framework/',
+    name: 'Umi',
+    logo: 'umijs.png',
+    api: 'https://umijs.org/zh-CN/docs',
   },
 ];
 
