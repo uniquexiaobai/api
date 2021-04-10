@@ -68,8 +68,9 @@ const list = [
     api: 'https://vuepress.vuejs.org/zh/guide/',
   },
   {
-    name: 'Zeit UI',
-    api: 'https://react.zeit-ui.co/zh-cn/guide/introduction',
+    name: 'Geist UI',
+    logo: 'geist-ui.png',
+    api: 'https://react.geist-ui.dev/zh-cn/guide/introduction',
   },
   {
     name: 'Ant Design',
@@ -193,6 +194,11 @@ const list = [
     name: 'Nginx',
     logo: 'nginx.svg',
     api: 'http://nginx.org/en/docs/',
+  },
+  {
+    name: 'Puppeteer',
+    logo: 'puppeteer.svg',
+    api: 'https://zhaoqize.github.io/puppeteer-api-zh_CN/',
   },
   {
     name: 'Jest',
